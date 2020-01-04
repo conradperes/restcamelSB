@@ -23,15 +23,13 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
+    username: integrationmachinelearning@gmail.com
     password:
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mail.smtp.starttls.enable: true
-
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 
 message:   Hello from MOCK Profile
 fromRoute: direct:input
@@ -50,15 +48,15 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
+    username: integrationmachinelearning@gmail.com
     password:
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 message:   Hello from DEV Profile
-fromRoute: timer:health?period=10s
+fromRoute: timer:restRoute?period=10s
 toRoute:  log:?level=INFO&showBody=true
 healthRoute: timer:health?period=10s
 
@@ -74,13 +72,13 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
+    username: integrationmachinelearning@gmail.com
     password:
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 message:    Hello from STAGE Profile
 
 fromRoute: timer:health?period=10s
@@ -100,13 +98,13 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
+    username: integrationmachinelearning@gmail.com
     password:
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 
 message:    Hello from PROD Profile
 

@@ -1,0 +1,8 @@
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/processor/CountrySelectProcessor.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/routes/RestCamelRoute.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/processor/HealthCheckProcessor.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/routes/HealthCheckRoute.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/RestCamelApplication.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/alert/MailProcessor.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/config/DBConfig.java
+/Users/conradperes/Projects/camel/rest-learncamel-spring-boot/src/main/java/com/learncamel/exception/DataException.java
